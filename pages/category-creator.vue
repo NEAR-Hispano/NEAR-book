@@ -160,7 +160,7 @@ export default {
     },
     async fetch_data () {
       this.data_table = []
-      const CONTRACT_NAME = 'book.bookshop2.testnet'
+      const CONTRACT_NAME = 'nft.nearbookshop.near'
       // connect to NEAR
       const near = await connect(
         CONFIG(new keyStores.BrowserLocalStorageKeyStore())
@@ -178,7 +178,7 @@ export default {
       })
     },
     async create_item (item) {
-      const CONTRACT_NAME = 'book.bookshop2.testnet'
+      const CONTRACT_NAME = 'nft.nearbookshop.near'
       const direccionIpfs = '.ipfs.dweb.link'
       // connect to NEAR
       const near = await connect(
@@ -202,7 +202,7 @@ export default {
       })
     },
     async update_item (item) {
-      const CONTRACT_NAME = 'book.bookshop2.testnet'
+      const CONTRACT_NAME = 'nft.nearbookshop.near'
       const direccionIpfs = '.ipfs.dweb.link'
       // connect to NEAR
       const near = await connect(

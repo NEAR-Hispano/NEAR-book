@@ -48,7 +48,7 @@ const GAS_FOR_MINT: Gas = 90_000_000_000_000;
 
 const NO_DEPOSIT: Balance = 0;
 
-const CONTRACT_ID: &str = "book.bookshop2.testnet";
+const CONTRACT_ID: &str = "nft.nearbookshop.near";
 */
 
 
@@ -276,7 +276,7 @@ impl Contract {
                                     "book4.bookshop.testnet".to_string(),
                                     "vicious2403.testnet".to_string(),
                                     "bookshop2.testnet".to_string(),
-                                    "book.bookshop2.testnet".to_string(),
+                                    "nft.nearbookshop.near".to_string(),
                                 ],
             transaction_series: UnorderedMap::new(StorageKey::TransactionSeries),
         }
